@@ -1,0 +1,108 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font: 1em verdana;
+}
+
+body {
+  background-image: url(https://img.freepik.com/premium-vector/abstract-white-grey-geometric-hexagon-background_453038-23.jpg?w=2000);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.container .carousel {
+  background-image: url(https://www.melhoresdestinos.com.br/wp-content/uploads/2021/10/orlando-eua-disney-capa9.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+  position: relative;
+  left: 2.4%;
+  width: 94%;
+  padding: 10px;
+  height: 800px;
+  background-color: rgb(74, 68, 68);
+}
+.container .carousel .btn-left {
+  position: absolute;
+  top: 42%;
+  left: 2%;
+}
+.container .carousel .btn-right {
+  position: absolute;
+  top: 42%;
+  right: 2%;
+}
+.container .carousel .fa-angles-right, .container .carousel .fa-angles-left {
+  font-size: 3em;
+  color: white;
+}
+
+header, footer {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  color: white;
+}
+header nav, footer nav {
+  padding: 7px;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  border-radius: 10px;
+  top: 10px;
+  width: 95%;
+  height: 60px;
+  background-color: #47246a;
+}
+header nav .navbar-logo, footer nav .navbar-logo {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+header nav ul, footer nav ul {
+  display: inline-flex;
+  list-style-type: none;
+  margin-left: 7%;
+}
+header nav ul li, footer nav ul li {
+  padding: 10px;
+}
+header nav ul li:nth-child(1), footer nav ul li:nth-child(1) {
+  font-weight: bold;
+}
+header nav .search-box, footer nav .search-box {
+  display: flex;
+  margin: 10px;
+  width: 250px;
+  height: 40px;
+}
+header nav .search-box .search-icon, footer nav .search-box .search-icon {
+  width: 48px;
+  height: 41px;
+  background-color: #be89c5;
+  border-radius: 10px 0px 0px 10px;
+}
+header nav .search-box .search-icon i, footer nav .search-box .search-icon i {
+  margin-left: 4px;
+  padding: 12px;
+}
+header nav .search-box .search-icon i:hover, footer nav .search-box .search-icon i:hover {
+  transform: scale(1.2);
+  transition-property: transform;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+header nav .search-box input, footer nav .search-box input {
+  border: 3px solid #be89c5;
+  outline: none;
+  width: 200px;
+  height: 35px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+/*# sourceMappingURL=style.css.map */
